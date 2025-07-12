@@ -1,0 +1,38 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+.editLink{
+  font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-decoration: underline;
+text-decoration-style: solid;
+color: #1773B0;
+}
+
+.shipping-cost{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+}
+.product-image{
+  position: relative;
+
+}
+.product-image > span{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+}

@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .product:not(:last-child) {
+    border-bottom: 1px solid #edeef5;
+  }
+}
+@media ((min-width: 768px)and(max-width:900px)) {
+  .product:nth-last-child(n + 3) {
+    border-bottom: 1px solid #edeef5;
+  }
+  .product:nth-child(odd) {
+    border-right: 1px solid #edeef5;
+  }
+}
+@media (min-width: 900px) {
+  .product:nth-last-child(n + 6) {
+    border-bottom: 1px solid #edeef5;
+  }
+  .product:not(:nth-child(5n)) {
+    border-right: 1px solid #edeef5;
+  }
+}
