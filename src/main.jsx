@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import { AppRoutes } from "./routing/AppRoutes";
 import { Provider } from "react-redux";
-import { store, persistor } from "@/store/index";
+import { store, persistor } from "@/Store/index";
 import { PersistGate } from "redux-persist/integration/react";
 import "./index.css";
 
