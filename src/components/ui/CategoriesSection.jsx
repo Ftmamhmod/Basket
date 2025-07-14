@@ -73,7 +73,7 @@ const CategoriesSection = () => {
         <div className="flex flex-col md:flex-row  ">
           <div className=" md:w-auto md:flex-[0_0_240px]  my-auto">
             <div className="bg-white text-center hover:shadow-lg transition-shadow cursor-pointer border border-gray-300 rounded-lg p-4 h-full">
-              <div className="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
+              <div className="w-32 h-56 mx-auto rounded-full overflow-hidden mb-4">
                 <img
                   className="w-full h-full object-cover"
                   src={fixedCategory?.image}

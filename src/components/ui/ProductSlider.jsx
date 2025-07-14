@@ -22,7 +22,7 @@ const ProductSlider = ({ featuredProducts, loading, error }) => {
           className="lg:col-span-1 h-full "
           onClick={() => handleOpenPopup()}
         >
-          <div className="bg-white border-2 border-pink-200 rounded-xl p-6 pb-20 h-fit flex flex-col cursor-pointer hover:scale-95 transition-all duration-200">
+          <div className="bg-white border-2 border-pink-200 rounded-xl p-6 pb-20 h-full flex flex-col cursor-pointer hover:scale-95 transition-all duration-200">
             <div className="  mb-4  text-blue-950">
               <h5 className="font-medium p-3 text-3xl">
                 Deals of the <b>week!</b>
