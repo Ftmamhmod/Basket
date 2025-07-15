@@ -24,7 +24,7 @@ const CarouselSpacing = (categoryName) => {
   return (
     <Carousel className="w-full md:max-w-[500px] lg:max-w-[700px] hidden md:block">
       <CarouselContent className="">
-        {categoryProducts.map((product, index) => (
+        {categoryProducts?.map((product, index) => (
           <CarouselItem key={index} className="pl-1 basis-1/3 lg:basis-1/4">
             <div className="p-1">
               <Card className="p-3 ">
