@@ -6,7 +6,7 @@ import img1 from "./../../assets/img/product/bacola-banner-11.jpg (1).png";
 import img2 from "./../../assets/img/product/bacola-banner-12.jpg (1).png";
 import CountdownTimer from "@/components/ui/CountdownTimer";
 import { useDispatch } from "react-redux";
-import { openPopup } from "@/store/popBob/popBobSlice";
+import { openPopup } from "@/Store/popBob/popBobSlice";
 
 const ProductSlider = ({ featuredProducts, loading, error }) => {
   const dispatch = useDispatch();

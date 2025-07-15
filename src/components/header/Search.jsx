@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import actGetProducts from "../../store/products/actGetProduct";
-import { openPopup } from "../../store/popBob/popBobSlice";
+import actGetProducts from "../../Store/products/actGetProduct";
+import { openPopup } from "../../Store/popBob/popBobSlice";
 
 export default function Search() {
   const [search, setSearch] = useState("");

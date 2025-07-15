@@ -5,7 +5,7 @@ import {
   increase,
   decrease,
   removeItem,
-} from "@/store/cart/cartSlice";
+} from "@/Store/cart/cartSlice";
 
 function ButtonQuantityCounter({ product }) {
   const dispatch = useDispatch();

@@ -7,7 +7,7 @@ import {
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { useDispatch } from "react-redux";
-import { logOut } from "@/store/authSlice/authSlice";
+import { logOut } from "@/Store/authSlice/authSlice";
 
 export default function CustomDropdownMenu({
   trigger,

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import HeroSection from "./../../components/ui/HeroSection";
 import CategoriesSection from "./../../components/ui/CategoriesSection";
 import { useEffect } from "react";
-import actGetProducts from "../../store/products/actGetProduct";
+import actGetProducts from "../../Store/products/actGetProduct";
 import ProductSlider from "../../components/ui/ProductSlider";
 import {
   Mistakes,

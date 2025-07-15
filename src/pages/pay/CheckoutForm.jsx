@@ -9,7 +9,7 @@ import axios from "axios";
 import ToastNotification from "@/components/toastify";
 import { useDispatch, useSelector } from "react-redux";
 import { useMemo } from "react";
-import { cleanUpCart } from "@/store/cart/cartSlice";
+import { cleanUpCart } from "@/Store/cart/cartSlice";
 
 export default function CheckoutForm() {
   const dispatch = useDispatch();
@@ -32,6 +32,7 @@ export default function CheckoutForm() {
       country: "US",
     },
   });
+  const [setPaymentRequest] = useState(null);
   const [activePaymentMethod, setActivePaymentMethod] = useState("card");
 
   const showToast = (type, message) => {

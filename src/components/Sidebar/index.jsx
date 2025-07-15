@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import imgShop from "../../assets/img/shop/aeb9763b1145b3dd6e2fadd6c2b27941d3d7b0fa.png";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchCategories } from "@/store/categories/actGetCategories";
-import { fetchCategoriesProducts } from "@/store/categoryProducts/actGetCategoryProducts";
+import { fetchCategories } from "@/Store/categories/actGetCategories";
+import { fetchCategoriesProducts } from "@/Store/categoryProducts/actGetCategoryProducts";
 import { useSearchParams } from "react-router-dom";
 
 import Brands from "./Brands";

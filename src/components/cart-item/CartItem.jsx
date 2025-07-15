@@ -1,4 +1,4 @@
-import { decrease, increase, removeItem } from "@/store/cart/cartSlice";
+import { decrease, increase, removeItem } from "@/Store/cart/cartSlice";
 import React from "react";
 import { useDispatch } from "react-redux";
 

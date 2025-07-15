@@ -2,9 +2,9 @@ import { Loader2, Star } from "lucide-react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useDispatch } from "react-redux";
-import { openPopup } from "../../store/popBob/popBobSlice";
+import { openPopup } from "../../Store/popBob/popBobSlice";
 import ButtonQuantityCounter from "./ButtonQuantityCounter";
-import { addCart } from "@/store/cart/cartSlice";
+import { addCart } from "@/Store/cart/cartSlice";
 import { useEffect, useState } from "react";
 
 const ProductMain = ({

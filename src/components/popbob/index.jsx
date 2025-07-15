@@ -4,9 +4,9 @@ import CarouselSpacing from "./Carousel";
 import ProductImageCarousel from "./ProductImageCarousel";
 import ProductDetails from "./ProductDetails";
 import { useEffect, useState } from "react";
-import actGetProductById from "@/store/popBob/actGetProductById";
+import actGetProductById from "@/Store/popBob/actGetProductById";
 import { ImSpinner9 } from "react-icons/im";
-import { closePopup } from "../../store/popBob/popBobSlice";
+import { closePopup } from "../../Store/popBob/popBobSlice";
 const PopBob = ({ open, onOpenChange, selectedProductId }) => {
   const dispatch = useDispatch();
   useEffect(() => {

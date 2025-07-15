@@ -1,9 +1,9 @@
 import { useForm } from "react-hook-form";
 import { Navigate, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import actSignInAuth from "@/store/authSlice/actSignInAuth";
+import actSignInAuth from "@/Store/authSlice/actSignInAuth";
 import { useEffect } from "react";
-import { resetUI } from "@/store/authSlice/authSlice";
+import { resetUI } from "@/Store/authSlice/authSlice";
 import { Loader2 } from "lucide-react";
 
 const Login = () => {

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchCategories } from "@/store/categories/actGetCategories";
+import { fetchCategories } from "@/Store/categories/actGetCategories";
 import CustomDropdownMenu from "./CustomDropdownMenu";
 
 export default function Category() {

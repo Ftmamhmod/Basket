@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import PopBob from "@/components/popbob";
 import { useSelector, useDispatch } from "react-redux";
-import { closePopup } from "@/store/popBob/popBobSlice";
+import { closePopup } from "@/Store/popBob/popBobSlice";
 
 const MainLayout = () => {
   const { open, selectedProductId } = useSelector((state) => state.popup);
