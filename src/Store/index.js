@@ -5,7 +5,7 @@ import categories from "./categories/categoriesSlice.js";
 import popup from "./popBob/popBobSlice.js";
 import cart from "./cart/cartSlice.js";
 import auth from "./authSlice/authSlice.js";
-import carousel from "./carouselProducts/carouselProductsSlice.js";
+import carousel from "./carouselProducts/actGetcarouselProducts.js";
 import categoriesProducts from "./categoryProducts/categoryProductsSlice.js";
 import {
   FLUSH,

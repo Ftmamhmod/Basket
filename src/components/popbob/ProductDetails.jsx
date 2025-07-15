@@ -3,7 +3,7 @@ import heart from "@/assets/heart.svg";
 import heartFill from "@/assets/heart-svgrepo-com.svg";
 import { FaCircleCheck } from "react-icons/fa6";
 import ShareDialog from "../share/ShareDialog";
-import { addCart } from "@/store/cart/cartSlice";
+import { addCart } from "@/Store/cart/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 const ProductDetails = ({ product, loading, onClosePopup }) => {

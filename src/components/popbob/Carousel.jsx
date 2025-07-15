@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useDispatch, useSelector } from "react-redux";
-import actGetcarouselProducts from "@/store/carouselProducts/actGetcarouselProducts";
+import actGetcarouselProducts from "@/Store/carouselProducts/actGetcarouselProducts.js";
 
 const CarouselSpacing = (categoryName) => {
   const dispatch = useDispatch();
